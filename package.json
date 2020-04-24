@@ -13,7 +13,8 @@
   "author": "Jesús Daniel Medina Cruz",
   "license": "MIT",
   "dependencies": {
-    "@capacitor/core": "latest"
+    "@capacitor/cli": "^2.0.1",
+    "@capacitor/core": "^2.0.1"
   },
   "devDependencies": {
     "rimraf": "^3.0.0",
