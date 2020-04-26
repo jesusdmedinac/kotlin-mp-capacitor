@@ -13,6 +13,11 @@ export class KotlinMultiPlatformCapacitorWeb extends WebPlugin implements Kotlin
     console.log('ECHO', options);
     return options;
   }
+
+  async fillListOfPeople(options: { people: [] }): Promise<{ people: []}> {
+    console.log('ECHO 2', options);
+    return options;
+  }
 }
 
 const KotlinMultiPlatformCapacitor = new KotlinMultiPlatformCapacitorWeb();

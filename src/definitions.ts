@@ -6,4 +6,5 @@ declare module "@capacitor/core" {
 
 export interface KotlinMultiPlatformCapacitorPlugin {
   echo(options: { value: string }): Promise<{value: string}>;
+  fillListOfPeople(options: { people: [] }): Promise<{people: []}>;
 }
